@@ -43,7 +43,7 @@ public class java extends HttpServlet {
             out.println("<h1>Michael</h1>");
             out.println("<img src=\"img/Screenshot.png\" style=\"width: 100px;\"/>");
             out.println("<p>Jeg har ikke lyst til at have min personlig info online her.</p>");
-            out.println("<p>Jeg vil gerne kunne leve af at </p>");
+            out.println("<p>Jeg har valgt dette fag da det er et led i uddannelsen og jeg vil gerne kunne leve af at lave IT.</p>");
             out.println("</body>");
             out.println("</html>");
         }
