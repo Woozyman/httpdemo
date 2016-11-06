@@ -40,10 +40,15 @@ public class java extends HttpServlet {
             out.println("<title>Personlig info</title>");            
             out.println("</head>");
             out.println("<body>");
+            out.println("<nav>");
+            out.println("<a href='kontakt.html'>Kontakt</a>");
+            out.println("<a href='#'>Menupunkt 2</a>");
+            out.println("<a href='#'>osv.</a>");
+            out.println("</nav>");
             out.println("<h1>Michael</h1>");
             out.println("<img src=\"img/Screenshot.png\" style=\"width: 100px;\"/>");
-            out.println("<p>Jeg har ikke lyst til at have min personlig info online her.</p>");
-            out.println("<p>Jeg har valgt dette fag da det er et led i uddannelsen og jeg vil gerne kunne leve af at lave IT.</p>");
+            out.println("<p>Personlig info skrives her, når denne side er lagt bag et login og ikke skal ligge på GitHub.</p>");
+            out.println("<p>Jeg har valgt dette fag da det er et led i min uddannelse og jeg vil gerne kunne leve af IT.</p>");
             out.println("</body>");
             out.println("</html>");
         }
